@@ -1,0 +1,30 @@
+    *,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    
+    div {
+        width: 1366px;
+        height: 500px;
+        border: 1px solid #ccc;
+        background-color: aqua;
+    }
+    
+    @media screen and (min-width: 640px) {
+        div {
+            background-color: purple;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        div {
+            background-color: blue;
+        }
+    }
+    
+    @media screen and (min-width:1366px) {
+        div {
+            background-color: red;
+        }
+    }
